@@ -1,10 +1,33 @@
 <!doctype html>
 <html>
   <head>
-    <title>HTML</title>
+    <title>미얌의 복습타임 title태그는 웹의 이름 책표지 같은 정보이다 검색엔진은 이것을 이용해 상위에 노출 시킴!! </title>
     <meta charset="utf-8">
   </head>
   <body>
+    <h2>기초를 배워보자</h2>
+    < >열리는 태그, < / >닫히는 태그
+    <br><strong> (strong태그) 강조하는 태그 </strong>
+    <br><u>(u)밑줄 태그</u>
+    내마음에 밑줄을 그어보장 그러장
+      <h1>h1~6은</h1>
+      <h2>제목을 나타내는 태그</h2>
+      <h3>숫자가 커질수록 </h3>
+      <h4>글씨가 작아짐</H4>
+      <h5>점점</h5>
+      <h6>이렇게</h6>
+    <br>br(html new line tag 바꿈 태그)은 닫히는 태그 안써도 됨 단지 줄 바꿔줌!!
+    <br><br>br br 두번 사용해도됨 더 벌어지게 해줌!!
+    <p style="margin-top:80px;"> <span style="font-size:15pt"><u>p태그 단락을 나눠주는 태그</u>(html paragraph tag)</span> 정해진 여백만큼 벌어져 시각적 자유도 떨어지지만
+    css를 이용하며  여백조정 가능 ex)style="margin-top:80px;" </p>
+    <h2> 글자 크기 조정</h2>
+    span style="font-size:15pt"   /span 태그 -->딱 그 부분만 글자 크기 변함  inline level element
+      div style="font-size:15pt"   /div  태그 --> 전체화면을 차지하게 됨  block level element
+      <h2>이미지를 넣는 법을 활용해 보자</h2>
+      <img src="다나카 케이.jpg" width="50%">
+      <br>이미지를 넣을때는 이미지 태그를 씀 img source(src)="" 와 크기는 width="00%"쓴다!!</p>
+    <h2>부모(ul,ol) 자식(li) 태그를 활용해보자</h2>
+      <br> li태그는 앞에 자동으로 동그라미(목) 생김
         <li>1.나는</li>
         <li>2.오늘도</li>
         <li>3.백수다</li>
@@ -14,10 +37,21 @@
           <li>3.백수다</li>
         </ul>
         <ol>     <strong>ol태그</strong>자동으로 숫자를 넣어줌 so 숫자 삽입 필요 nono! but 동그라미(목차)는 안 생긴다.
-          <li>html</li>
-          <li>css</li>
-          <li>java script</li>
+          <li><a href="index.html">나는</a></li>
+          <li><a href="2.html">오늘도</a></li>
+          <li><a href="3.html">백수다</a></li>
         </ol>
-
+      </p>
+     <h2>head태그</h2> <p>head태그 안에 title태그와 meta charset="utf-8" 넣어야한다.<br>
+        head태그: body(본문)을 설명하는 태그로 묶음<br>
+     <p> <h2>링크 태그</h2>
+        정보의 바다에 정박한다는 뜻의 닻a는 복사하고 싶은 주소를 복사하여
+        <br>    <열림태그 a herg="복사한 주소"닫힘태그> <열림태그/a닫힘태그> 쓴다
+        <br>    다른 페이지에 링크를 열고 싶으면 target="_Blank"뒤에 붙여준다
+        <br>    마우스 갖다대면 무슨 링크인지 설명 title="설명 내용 적기"
+        <br>  <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_Blank" title="html specification" >Hyper Text Markup Language(HTML)</a> </p>
+        <p><h2> 웹 페이지 연결</h2>
+          웹페이지 연결 시 <열림태그 a herg="html의 위에 주소 이름을 적어야 한다"닫힘태그> 이름 <열림태그/a닫힘태그>
+        </p>
   </body>
 </html>
